@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1353339195546" ID="ID_1100804556" MODIFIED="1526406610290" TEXT="Game Design">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1353358176556" FOLDED="true" ID="ID_1038676588" MODIFIED="1529934164153" POSITION="left" TEXT="Authors/Resources">
+<node CREATED="1353358176556" ID="ID_1038676588" MODIFIED="1531399570304" POSITION="left" TEXT="Authors/Resources">
 <node CREATED="1394615172280" FOLDED="true" ID="ID_654320233" MODIFIED="1522054073883" TEXT="Lehman/Witty">
 <node CREATED="1394614906492" ID="ID_919236942" MODIFIED="1394614913275" TEXT="Harvey C. Lehman, Ph.D., Psychology, University of Chicago"/>
 <node CREATED="1394615136037" ID="ID_217462150" MODIFIED="1394615168385" TEXT="Paul Andrew Witty, Ph.D., Columbia University"/>
@@ -1704,8 +1704,33 @@
 </node>
 </node>
 </node>
+<node CREATED="1425463291468" FOLDED="true" ID="ID_836865506" MODIFIED="1531399325237" TEXT="Andrew Seila">
+<node CREATED="1425463316705" FOLDED="true" ID="ID_145215036" MODIFIED="1531399324491" TEXT="Spreadsheet Simulations (2006)">
+<node CREATED="1425676575234" FOLDED="true" ID="ID_946754337" MODIFIED="1531399322004" TEXT="General">
+<node CREATED="1425463329299" ID="ID_1602168796" MODIFIED="1425463431181" TEXT="At the core of any (stochastic) simulation is a model that involves quantities whose values are unpredictable and therefore must be sampled from an appropriate population. "/>
+<node CREATED="1425463452891" ID="ID_989034062" MODIFIED="1425463454483" TEXT="Spreadsheet simulation simply involves using a spreadsheet to represent the model, do the sampling, perform the model computations and report the results."/>
+<node CREATED="1425465102080" ID="ID_882842780" MODIFIED="1425493035756" TEXT="Spreadsheets are ubiquitous - almost everybody has one - and file formats are standardized, so files written by one spreadsheet can be imported by others. "/>
 </node>
-<node CREATED="1427229889231" FOLDED="true" HGAP="68" ID="ID_1836134591" MODIFIED="1529934162453" POSITION="right" TEXT="geplanter Ablauf S18" VSHIFT="-1">
+<node CREATED="1425463658418" FOLDED="true" ID="ID_308626828" MODIFIED="1531399319842" TEXT="Requirements for the simulation plattform">
+<node CREATED="1425463672563" ID="ID_1088642398" MODIFIED="1425463675396" TEXT="1. A way to represent mathematical and logical relationships among variables in the form of computations and assignment of values, and algorithms that describe how to do a series of computations."/>
+<node CREATED="1425463693712" ID="ID_1482706430" MODIFIED="1425463695279" TEXT="2. A way to generate uniformly distributed pseudorandom numbers and use them to sample observations from various distributions."/>
+<node CREATED="1425463702919" ID="ID_1071000673" MODIFIED="1425463704087" TEXT="3. A means to repeat the computations of the model, thus implementing replications."/>
+</node>
+<node CREATED="1425466422079" FOLDED="true" ID="ID_1220341476" MODIFIED="1531399303951" TEXT="Cell classification">
+<node CREATED="1425466429912" ID="ID_780643486" MODIFIED="1425466443818" TEXT="Inputs to the model"/>
+<node CREATED="1425466445275" ID="ID_861139810" MODIFIED="1425466466031" TEXT="Intermediate computations"/>
+<node CREATED="1425466447561" ID="ID_622448597" MODIFIED="1425466456576" TEXT="Outputs from the model"/>
+</node>
+<node CREATED="1425674671734" FOLDED="true" ID="ID_329431218" MODIFIED="1467184044286" TEXT="Restrictions">
+<node CREATED="1425675139422" ID="ID_1326976544" MODIFIED="1425675197964" TEXT="simple data structures: cell, vector, 2D-matrix"/>
+<node CREATED="1425675216358" ID="ID_97315079" MODIFIED="1425675228756" TEXT="complex algorithms inefficient"/>
+<node CREATED="1425675244997" ID="ID_292557720" MODIFIED="1425675249040" TEXT="slow"/>
+<node CREATED="1425675254054" ID="ID_1861100388" MODIFIED="1425675259705" TEXT="limited data storage"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1427229889231" HGAP="68" ID="ID_1836134591" MODIFIED="1531398890282" POSITION="right" TEXT="geplanter Ablauf S18" VSHIFT="-1">
 <node CREATED="1439900240908" FOLDED="true" ID="ID_19059003" MODIFIED="1461102358430" TEXT="0. Allgemeines">
 <node CREATED="1439900247195" ID="ID_1447711564" MODIFIED="1439900305294" TEXT="Aufgaben verpflichtend!"/>
 <node CREATED="1439900404490" ID="ID_97721074" MODIFIED="1439900416601" TEXT="Weiter Inhalte an der Tafel im Dialog erarbeiten"/>
@@ -2209,6 +2234,31 @@
 </node>
 <node CREATED="1440265351114" ID="ID_863215898" MODIFIED="1440265352996" TEXT="Pathfinding (Thesis Rudolf) "/>
 <node CREATED="1440317858382" ID="ID_1939081108" MODIFIED="1440317913248" TEXT="Aufgabe: Strategien und optimales Verhalten von Spielern und Agenten ermitteln"/>
+</node>
+<node CREATED="1440265767221" FOLDED="true" ID="ID_1950423517" LINK="#ID_1865365137" MODIFIED="1498633017536" TEXT="14. Development Process">
+<node CREATED="1394615700970" FOLDED="true" ID="ID_1769103376" MODIFIED="1498633001116" TEXT="Development Process">
+<node CREATED="1394617749713" ID="ID_1525843587" LINK="Pics/Schell/Waterfall.jpg" MODIFIED="1394617781855" TEXT="Waterfall (adopted to Softwaredesign in the 1970s)"/>
+<node CREATED="1394616744717" ID="ID_1621174103" LINK="Pics/Schell/BarryBoehm.jpg" MODIFIED="1394617632323" TEXT="Barry Boehm (1986)"/>
+<node CREATED="1394616589370" ID="ID_286743818" LINK="#ID_1010315170" MODIFIED="1394617783141" TEXT="Eight Filters"/>
+</node>
+<node CREATED="1440333995501" FOLDED="true" ID="ID_1292339448" MODIFIED="1498633005846" TEXT="Find an idea or theme">
+<node CREATED="1440334043051" ID="ID_195458163" MODIFIED="1440334046215" TEXT="Brainstorm"/>
+<node CREATED="1440334046841" ID="ID_609047652" MODIFIED="1440334058711" TEXT="Create small concept"/>
+<node CREATED="1440334203595" ID="ID_1188472693" MODIFIED="1440334211373" TEXT="Visualize!"/>
+</node>
+<node CREATED="1440334131490" ID="ID_1019880487" MODIFIED="1440334149549" TEXT="Build the toy first"/>
+<node CREATED="1440333356972" FOLDED="true" ID="ID_1138298886" MODIFIED="1498633011456" TEXT="Prototype">
+<node CREATED="1440333362993" ID="ID_1327479450" MODIFIED="1440333366817" TEXT="Paper"/>
+<node CREATED="1440333367787" ID="ID_274222213" MODIFIED="1440333371808" TEXT="Spreadsheet"/>
+<node CREATED="1440333377837" ID="ID_1459330054" MODIFIED="1440333396996" TEXT="Prototyping Tools"/>
+</node>
+<node CREATED="1440334228411" FOLDED="true" ID="ID_1407636896" MODIFIED="1498633016586" TEXT="Record Minutes!">
+<node CREATED="1440334801230" ID="ID_20884614" MODIFIED="1440334817199" TEXT="No ideas should be forgotten"/>
+<node CREATED="1440334818058" ID="ID_1253869596" MODIFIED="1440334837579" TEXT="No discussion should happen twice"/>
+<node CREATED="1440334850566" ID="ID_232100901" MODIFIED="1440334897958" TEXT="Record decisions and reasons"/>
+<node CREATED="1440334898604" ID="ID_874498740" MODIFIED="1440334920370" TEXT="Record discarded alternatives"/>
+</node>
+<node CREATED="1440265779494" ID="ID_177681655" MODIFIED="1440334797873" TEXT="Create and maintain Game Design Document"/>
 </node>
 </node>
 </node>
